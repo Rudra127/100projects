@@ -1,7 +1,7 @@
 import pygame #pip install pygame
 import math
 import random 
-from faker import Faker
+from faker import Faker #pip install faker
 #set up display
 
 faker = Faker()
@@ -18,7 +18,7 @@ def hangman():
      
     images=[]
     for i in range(7):
-        img='1hangmangui\hangman'+str(i)+".png"
+        img='1hangmangui\hangman'+str(i)+".png" #set this as per your file path
         image=pygame.image.load(img)       
         images.append(image)
 
