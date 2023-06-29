@@ -8,7 +8,8 @@ def dice2():
     FPS = 60
     clock = pygame.time.Clock()
     run = True
-    #if you want to increase the possiblity to get the particular number than add that number to this list multiple times
+    #if you want to increase the possiblity to get the particular number than add that number to this list multiple times and 0 is indicates to 1 and 1 is indicates to 2 and so on.
+    #for eg you want to increase the possiblity of getting 1 more times than you can add more 0 to this list.
     dice1 = [0,1,2,3,4,5]
     dice_num= random.choice(dice1)
 
